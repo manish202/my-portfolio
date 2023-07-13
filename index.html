@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Manish Prajapati Portfolio - Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    <header id="header" class="header">
+        <nav class="container d-flex navbar">
+            <div class="logo"><a href="index.html#home"><img src="images/logo.webp" alt="manish prajapati"></a></div>
+            <div id="toggle-bar" class="toggle-bar">
+                <i></i><i></i><i></i>
+            </div>
+            <div class="d-flex menu" id="menu">
+                <a class="menu-link active" href="#home">home</a>
+                <a class="menu-link" href="#services">services</a>
+                <a class="menu-link" href="#portfolio">portfolio</a>
+                <a class="menu-link" href="#about">about me</a>
+                <a class="menu-link" href="#contact">contact me</a>
+            </div>
+        </nav>
+    </header>
+    <div id="scroll-spy">
+        <div data-ind="0" class="d-flex section container min-vh-100 home" id="home">
+            <div class="col">
+                <div class="profile-pic">
+                    <span style="--bc:0.8;"></span>
+                    <span style="--bc:0.6;"></span>
+                    <span style="--bc:0.4;"></span>
+                    <span style="--bc:0.2;"></span>
+                    <img src="images/manishprajapati.webp" alt="manish prajapati">
+                </div>
+            </div>
+            <div class="col">
+                <h1 class="title h1">hey! i am a professional web developer & freelancer 👱</h1>
+            </div>
+        </div>
+        <div data-ind="1" class="section container min-vh-100" id="services">
+            <h2 class="title h2">my services</h2>
+            <ul class="list services">
+                <li>layout design (figma,psd etc..) to responsive web page conversion.</li>
+                <li>website development.</li>
+                <li>SPA (single page web application development).</li>
+                <li>front end - static website development.</li>
+                <li>backend - dynamic website development.</li>
+                <li>custom cms development.</li>
+                <li>landing page/business page development.</li>
+                <li>portfolio website development.</li>
+                <li>domain registration.</li>
+                <li>hosting registration.</li>
+                <li>domain & hosting configuration with SSL certificate.</li>
+                <li>bug fixing.</li>
+            </ul>
+        </div>
+        <div data-ind="2" class="section container min-vh-100" id="portfolio">
+            <h2 class="title h2">my portfolio</h2>
+            <div class="portfolio">
+                <div class="d-flex odd card">
+                    <div class="card-img"><img src="images/onwardpass.png" alt="flight reservation service."></div>
+                    <div class="card-desc">
+                        <h3 class="title h3">flight reservation service.</h3>
+                        <ul class="list">
+                            <li>technologies: html, css, jquery, php, mysql.</li>
+                            <li>converted from figma to html.</li>
+                            <li>its dynamic and responsive website.</li>
+                            <li>ticket booking functionality.</li>
+                            <li>payment gateway integrated.</li>
+                            <li>custom cms dashboard for orders management.</li>
+                            <li>contact me for live demo.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex even card">
+                    <div class="card-desc">
+                        <h3 class="title h3">indulge hair salon.</h3>
+                        <ul class="list">
+                            <li>technologies: html, css, reactjs, nextjs</li>
+                            <li>its single page web application.</li>
+                            <li>developed without any layout design.</li>
+                            <li>its static and responsive website.</li>
+                            <li>contact me for live demo.</li>
+                        </ul>
+                    </div>
+                    <div class="card-img"><img src="images/indulge_salon.png" alt="indulge salon"></div>
+                </div>
+            </div>
+        </div>
+        <div data-ind="3" class="section container min-vh-100" id="about">
+            <h2 class="title h2">about me</h2>
+            <div class="d-flex about">
+                <div class="col">
+                    <p class="title">hey there! my name is manish prajapati. i am a professional web developer & freelancer.</p>
+                    <p class="title">i help people to make their business/service presence online with my web development skills.</p>
+                    <h4 class="title h4">my skills</h4>
+                    <ul class="list">
+                        <li>frontend - html, css, javascript, bootstrap, advance js, jquery, reactjs, nextjs.</li>
+                        <li>backend - core php, mysql database, api development.</li>
+                        <li>others - git, github, ajax-api-json, bug fixing.</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div class="profile-pic">
+                        <span style="--bc:0.8;"></span>
+                        <span style="--bc:0.6;"></span>
+                        <span style="--bc:0.4;"></span>
+                        <span style="--bc:0.2;"></span>
+                        <img src="images/manish-prajapati.webp" alt="manish prajapati">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-ind="4" class="section container min-vh-100 contact" id="contact">
+            <h2 class="title h2">contact me</h2>
+            <p class="title">you can contact me through any social media platforms.</p>
+            <div class="d-flex social">
+                <a href="https://www.facebook.com/profile.php?id=100031940615602" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/manish_web_dev/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://in.linkedin.com/in/manish-prajapati-640b061b6" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <footer>
+                <h4 class="title h4">design & developed by manish prajapati.</h4>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
